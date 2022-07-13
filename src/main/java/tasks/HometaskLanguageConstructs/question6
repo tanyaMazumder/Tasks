@@ -1,0 +1,14 @@
+6. Given two ints, each in the range 10..99, return true if there is a digit that appears in both numbers,
+ such as the 2 in 12 and 23. (Note: division, e.g. n/10, gives the left digit while the % "mod" n%10 gives the right digit.)
+
+Answer:-
+public boolean shareDigit(int a, int b) {
+  int aL = a / 10;
+  int aR = a % 10;
+  int bL = b / 10;
+  int bR = b % 10;
+  if (aL == bL || aL == bR || aR == bL || aR == bR)
+    return true;
+  else
+    return false;
+}
