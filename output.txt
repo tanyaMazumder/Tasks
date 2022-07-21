@@ -1,0 +1,5 @@
+Product(name=A, category=Electronic, grade=First, printParameter=File, price=5000)
+Product(name=E, category=Clothing, grade=First, printParameter=File, price=6000)
+Product(name=F, category=Electronic, grade=First, printParameter=File, price=900)
+Product(name=I, category=Kitchen, grade=First, printParameter=File, price=50)
+Product(name=J, category=Electronic, grade=First, printParameter=File, price=60)

@@ -9,6 +9,7 @@ public class Palindrome {
         System.out.println("Is class a Palindrome? - " + isPalindrome("class"));
         System.out.println("Is was it a car or a cat I saw a Palindrome? - " + isPalindrome("was it a car or a cat I saw"));
     }
+
     public static boolean isPalindrome(String originalString) {
 
         String tempString = originalString.replaceAll("\\s+", "").toLowerCase();

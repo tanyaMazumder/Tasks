@@ -1,0 +1,8 @@
+Question 1 :-
+mvn archetype:generate   -DgroupId="com.epam.testapp"   -DartifactId="my-app-id"   -DarchetypeGroupId="net.serenity-bdd"   -DarchetypeArtifactId="serenity-cucumber-archetype"   -DarchetypeVersion="2.3.2"   -DinteractiveMode=false
+
+
+Question 2 :-Maven command
+mvn compile: Compiles source code of the project.
+mvn test: Runs tests for the project.
+mvn package: Creates JAR or WAR file for the project to convert it into a distributable format.

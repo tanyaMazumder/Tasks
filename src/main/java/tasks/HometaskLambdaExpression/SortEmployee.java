@@ -20,7 +20,6 @@ class Employee {
     }
 }
 
-
 public class SortEmployee {
     public static void main(String args[]) {
         ArrayList<Employee> el = new ArrayList<Employee>();

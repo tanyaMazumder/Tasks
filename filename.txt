@@ -1,0 +1,1 @@
+Product(name=A, category=Electronic, grade=First, printParameter=File, price=5000)
